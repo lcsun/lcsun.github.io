@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>鼎恒投资控股有限公司</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style type="text/css">
+        .demo {
+            background: #fff;
+            padding: 2em 0;
+        }
+
+        .main-timeline {
+            overflow: auto;
+        }
+
+        .main-timeline .timeline {
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .main-timeline .timeline-icon {
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            font-size: 65px;
+            color: #727cb6;
+            border-bottom: 3px solid #ccc;
+            position: relative;
+        }
+
+        .main-timeline .timeline-icon:before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #727cb6;
+            margin: 0 auto;
+            position: absolute;
+            bottom: -9.5px;
+            left: 0;
+            right: 0;
+        }
+
+        .main-timeline .year {
+            display: block;
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 50%;
+            background: #727cb6;
+            font-size: 30px;
+            color: #fff;
+            margin-bottom: 30px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .main-timeline .year:before {
+            content: "";
+            display: block;
+            width: 70px;
+            height: 80%;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: -37px;
+        }
+
+        .main-timeline .timeline-content {
+            padding: 0 10px;
+        }
+
+        .main-timeline .post {
+            font-size: 20px;
+            color: #727cb6;
+            margin: 0 0 20px 0;
+        }
+
+        .main-timeline .description {
+            font-size: 14px;
+            color: #555;
+            text-align: left;
+        }
+
+        .main-timeline .timeline:nth-child(2n) .timeline-icon,
+        .main-timeline .timeline:nth-child(2n) .post {
+            color: #008b8b;
+        }
+
+        .main-timeline .timeline:nth-child(2n) .year,
+        .main-timeline .timeline:nth-child(2n) .timeline-icon:before {
+            background: #008b8b;
+        }
+
+        .main-timeline .timeline:nth-child(3n) .timeline-icon,
+        .main-timeline .timeline:nth-child(3n) .post {
+            color: #e77e21;
+        }
+
+        .main-timeline .timeline:nth-child(3n) .year,
+        .main-timeline .timeline:nth-child(3n) .timeline-icon:before {
+            background: #e77e21;
+        }
+
+        .main-timeline .timeline:nth-child(4n) .timeline-icon,
+        .main-timeline .timeline:nth-child(4n) .post {
+            color: #3498db;
+        }
+
+        .main-timeline .timeline:nth-child(4n) .year,
+        .main-timeline .timeline:nth-child(4n) .timeline-icon:before {
+            background: #3498db;
+        }
+
+        .main-timeline .timeline:nth-child(5n) .timeline-icon,
+        .main-timeline .timeline:nth-child(5n) .post {
+            color: #cca872;
+        }
+
+        .main-timeline .timeline:nth-child(5n) .year,
+        .main-timeline .timeline:nth-child(5n) .timeline-icon:before {
+            background: #cca872;
+        }
+
+        .main-timeline .timeline:nth-child(6n) .timeline-icon,
+        .main-timeline .timeline:nth-child(6n) .post {
+            color: #ed687c;
+        }
+
+        .main-timeline .timeline:nth-child(6n) .year,
+        .main-timeline .timeline:nth-child(6n) .timeline-icon:before {
+            background: #ed687c;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- Preloader -->
+    <!--Main Header-->
+    <header class="main-header-block sticky-header">
+        <div class="container">
+            <div class="logo">
+                <figure><a href="index.html"><img src="images/logo.png" alt=""></a></figure>
+            </div>
+            <div class="header-area clearfix">
+                <nav class="main-menu-navigation">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse"><span class="icon-bar"></span> <span
+                                class="icon-bar"></span> <span class="icon-bar"></span></button>
+                    </div>
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation clearfix">
+                            <li><a href="index.html">首页</a></li>
+                            <li class="dropdown"><a href="#">关于我们</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html#company_profile">公司简介</a></li>
+                                    <li><a href="about.html#corporate_architecture">公司架构</a></li>
+                                    <li><a href="about.html#managemen_team">管理团队</a></li>
+                                    <li><a href="about.html#business_layout">业务布局</a></li>
+                                    <li><a href="about.html#enterprise_culture">企业文化</a></li>
+                                    <li><a href="about.html#vision">发展愿景</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="laws.html">法律法规</a></li>
+                            <li class="dropdown"><a href="#">新闻中心</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="news.html">行业新闻</a></li>
+                                    <li><a href="dynamic.html">公司动态</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="job.html">诚聘英才</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--End Main Header -->
+    <!--Page Title-->
+    <section class="page-title">
+        <div class="container clearfix text-center">
+            <div class="title">
+                <h4>新闻中心</h4><h5 style="color: #ffffff">News Center</h5>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+    <!--Wellcome Section-->
+    <section class="wellcome-area">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>行业新闻</h2>
+                <p>Industry News</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="item-holder-box">
+                        <div class="col-md-9 col-sm-9 col-xs-12">
+                            <div class="blog_grid">
+                                <h2 class="post_title"><a href="#">行业新闻标题</a></h2>
+                                <a href="#"><img src='images/items/picture_middle.jpg' class="img-responsive" alt=""/></a>
+                                <ul class="links">
+                                    <li><i class="fa fa-calendar"></i> 2018.05.14</li>
+                                    <li><i class="fa fa-user"></i> <a href="#">管理员</a></li>
+                                </ul>
+                                <p>
+                                    行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...</p>
+                                <a href="news-details.html" class="blog_btn">阅读详情</a></div>
+                            <div class="blog_grid">
+                                <h2 class="post_title"><a href="#">行业新闻标题</a></h2>
+                                <a href="#"><img src='images/items/picture_middle.jpg' class="img-responsive" alt=""/></a>
+                                <ul class="links">
+                                    <li><i class="fa fa-calendar"></i> 2018.05.14</li>
+                                    <li><i class="fa fa-user"></i> <a href="#">管理员</a></li>
+                                </ul>
+                                <p>
+                                    行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...行业新闻内容...</p>
+                                <a href="news-details.html" class="blog_btn">阅读详情</a></div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 blog_sidebar">
+                            <ul class="sidebar">
+                                <h3>标签</h3>
+                                <li><a href="##">标签1</a></li>
+                                <li><a href="##">标签2</a></li>
+                                <li><a href="##">标签3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Wellcome Section-->
+    <!--main-footer-area-->
+    <footer class="main-footer-area" style="background: url(images/background/foot.jpg);">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="about-widget-box" style="text-align: center">
+                            <div class="footer-logo">
+                                <figure> <a href="index.html"><img src="images/logo_2.png" alt=""></a> </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <div class="footer-menu-link" style="text-align: center">
+                            <div class="sec-title">
+                                <h6>友情链接</h6>
+                            </div>
+                            <ul style="color: #ffffff">
+                                <li style="list-style: none; display: inline-block; padding: 0 30px"><a href="http://www.amac.org.cn/">基金业协会</a></li>|
+                                <li style="list-style: none; display: inline-block; padding: 0 30px"><a href="http://www.csrc.gov.cn/pub/newsite/">证监会</a></li>|
+                                <li style="list-style: none; display: inline-block; padding: 0 30px"><a href="http://www.sse.com.cn/">上交所</a></li>|
+                                <li style="list-style: none; display: inline-block; padding: 0 30px"><a href="http://www.szse.cn/">深交所</a></li>|
+                                <li style="list-style: none; display: inline-block; padding: 0 30px"><a href="http://www.cffex.com.cn//">期货交易所</a></li>|
+                                <li style="list-style: none; display: inline-block; padding: 0 30px"><a href="http://www.cfachina.org/">期货业协会</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright-text text-center">
+                    <p style="color: #ffffff;">Copyright &copy; 鼎恒投资控股有限公司</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End main-footer-area-->
+</div>
+<!--End pagewrapper-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<!--<script src="js/html5lightbox.js"></script>-->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/wow.js"></script>
+<!-- bxslider -->
+<script src="js/bxslider.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
